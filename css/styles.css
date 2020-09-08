@@ -9,7 +9,7 @@ body {
     box-shadow: 0px 0px 20px -15px black;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33.3%);
     margin: 1.5rem;
 }
 
@@ -134,6 +134,7 @@ body {
     .container {
         margin: 2rem auto;
         max-width: 38rem;
+        grid-template-rows: 40% 30% 30%;
     }
 
     .join-section,
